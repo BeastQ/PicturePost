@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="配置信息"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="图片格式"
+        android:textColor="#800080"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/photos11"
+        android:text="这里统一设置成jpeg格式，不需要选择"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStartManualPicture"
+        android:text="GO"
+        android:background="#ADD8E6"/>
+
+</LinearLayout>
